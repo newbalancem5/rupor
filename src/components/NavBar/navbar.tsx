@@ -2,7 +2,9 @@ import { Component } from "react";
 
 class Navbar extends Component{
     render() {
-        <div></div>
+      return  <div className="NavBar">
+            <p>ks</p>
+        </div>
     }
 }
 
