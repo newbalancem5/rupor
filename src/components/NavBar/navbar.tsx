@@ -1,11 +1,7 @@
-import { Component } from "react";
+import React,{FC} from 'react';
 
-class Navbar extends Component{
-    render() {
-      return  <div className="NavBar">
-            <p>ks</p>
-        </div>
-    }
+const NavBar:FC = () => {
+    return (<div></div>)
 }
 
-export default Navbar;
+export default NavBar;
