@@ -1,11 +1,8 @@
-import React from 'react';
+import React, { FC } from 'react';
 
-class Welcome extends React.Component {
-  render() {
-    return <div className='NavBar'>
-      <p>kek</p>
-    </div>;
-  }
+const WelcomePage: FC = () => {
+  return (<div>
+    <p></p>
+  </div>)
 }
-
-export default Welcome; 
+export default WelcomePage
